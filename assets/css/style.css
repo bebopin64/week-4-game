@@ -1,0 +1,208 @@
+.MPB {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.morty {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.rick {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.evilRick {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.MPBGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.mortyGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.rickGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.evilRickGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRick.jpg");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.MPBRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/newCursor.cur), auto;
+}
+
+.mortyRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png");
+	cursor: url(../images/newCursor.cur), auto;
+}
+
+.rickRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png");
+	cursor: url(../images/newCursor.cur), auto;
+}
+
+.evilRickRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/newCursor.cur), auto;
+}
+
+.MPBRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.mortyRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.rickRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.evilRickRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.MPBRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPBSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.mortyRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/mortySmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.rickRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rickSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.evilRickRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/bitchSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
+}
+
+.hide {
+	display: none;
+}
+
+.background {
+	height: 800px;
+	padding-top: 375px;
+}
+
+.mainBG {
+	background-image: url("../images/background.jpg");
+}
