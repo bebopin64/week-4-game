@@ -4,7 +4,7 @@
 	float: left;
 	margin: 10px;
 	background-image: url("../images/MPB.png");
-	border: 1px solid gray;
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .morty {
@@ -13,7 +13,7 @@
 	float: left;
 	margin: 10px;
 	background-image: url("../images/morty.png");
-	border: 1px solid gray;
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .rick {
@@ -22,7 +22,7 @@
 	float: left;
 	margin: 10px;
 	background-image: url("../images/rick.png");
-	border: 1px solid gray;
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .evilRick {
@@ -30,8 +30,8 @@
 	width: 150px;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/evilRick.jpg");
-	border: 1px solid gray;
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .MPBGreen {
@@ -40,7 +40,8 @@
 	border: 1px solid green;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/MPB.png")
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .mortyGreen {
@@ -49,7 +50,8 @@
 	border: 1px solid green;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/morty.png")
+	background-image: url("../images/morty.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .rickGreen {
@@ -58,7 +60,8 @@
 	border: 1px solid green;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/rick.png")
+	background-image: url("../images/rick.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .evilRickGreen {
@@ -68,6 +71,7 @@
 	float: left;
 	margin: 10px;
 	background-image: url("../images/evilRick.jpg");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .MPBRed {
@@ -76,7 +80,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/MPB.png")
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/newCursor.cur), auto;
 }
 
 .mortyRed {
@@ -85,7 +90,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/morty.png")
+	background-image: url("../images/morty.png");
+	cursor: url(../images/newCursor.cur), auto;
 }
 
 .rickRed {
@@ -94,7 +100,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/rick.png")
+	background-image: url("../images/rick.png");
+	cursor: url(../images/newCursor.cur), auto;
 }
 
 .evilRickRed {
@@ -103,7 +110,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/evilRick.jpg");
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/newCursor.cur), auto;
 }
 
 .MPBRed::hover {
@@ -112,7 +120,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/MPB.png")
+	background-image: url("../images/MPB.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .mortyRed::hover {
@@ -121,7 +130,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/morty.png")
+	background-image: url("../images/morty.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .rickRed::hover {
@@ -130,7 +140,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/rick.png")
+	background-image: url("../images/rick.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .evilRickRed::hover {
@@ -139,7 +150,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/evilRick.jpg");
+	background-image: url("../images/bitch.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .MPBRedSmall {
@@ -148,7 +160,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/MPBSmall.png")
+	background-image: url("../images/MPBSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .mortyRedSmall {
@@ -157,7 +170,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/mortySmall.png")
+	background-image: url("../images/mortySmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .rickRedSmall {
@@ -166,7 +180,8 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/rickSmall.png")
+	background-image: url("../images/rickSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .evilRickRedSmall {
@@ -175,9 +190,19 @@
 	border: 1px solid red;
 	float: left;
 	margin: 10px;
-	background-image: url("../images/evilRickSmall.jpg");
+	background-image: url("../images/bitchSmall.png");
+	cursor: url(../images/selectCursor.cur), auto;
 }
 
 .hide {
 	display: none;
+}
+
+.background {
+	height: 800px;
+	padding-top: 375px;
+}
+
+.mainBG {
+	background-image: url("../images/background.jpg");
 }
