@@ -17,11 +17,11 @@ function initialize() {
 	characters = {
 		MPB: {
 			HP: 100,
-			AP: 5
+			AP: 4
 		},
 		morty: {
 			HP: 120,
-			AP: 8
+			AP: 7
 		},
 		rick: {
 			HP: 150,
@@ -195,8 +195,6 @@ function battleMPB() {
 	};
 	characters.MPB.HP = characters.MPB.HP - userAP;
 	if (characters.MPB.HP < 1) {
-		userAP = userAP + userAP;
-		userHP = userHP - characters.MPB.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Mr. Poopybutthole!";
 		tookY.innerHTML = "Choose your next challenger.";
@@ -222,8 +220,6 @@ function battleMorty() {
 	};
 	characters.morty.HP = characters.morty.HP - userAP;
 	if (characters.morty.HP < 1) {
-		userAP = userAP + userAP;
-		userHP = userHP - characters.morty.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Morty!";
 		tookY.innerHTML = "Choose your next challenger.";
@@ -249,8 +245,6 @@ function battleRick() {
 	};
 	characters.rick.HP = characters.rick.HP - userAP;
 	if (characters.rick.HP < 1) {
-		userAP = userAP + userAP;
-		userHP = userHP - characters.rick.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Rick!";
 		tookY.innerHTML = "Choose your next challenger.";
@@ -276,8 +270,6 @@ function battleEvilRick() {
 	};
 	characters.evilRick.HP = characters.evilRick.HP - userAP;
 	if (characters.evilRick.HP < 1) {
-		userAP = userAP + userAP;
-		userHP = userHP - characters.evilRick.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Evil Rick!";
 		tookY.innerHTML = "Choose your next challenger.";
