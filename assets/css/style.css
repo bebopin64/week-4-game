@@ -1,0 +1,183 @@
+.MPB {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png");
+	border: 1px solid gray;
+}
+
+.morty {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png");
+	border: 1px solid gray;
+}
+
+.rick {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png");
+	border: 1px solid gray;
+}
+
+.evilRick {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRick.jpg");
+	border: 1px solid gray;
+}
+
+.MPBGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png")
+}
+
+.mortyGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png")
+}
+
+.rickGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png")
+}
+
+.evilRickGreen {
+	height: 150px;
+	width: 150px;
+	border: 1px solid green;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRick.jpg");
+}
+
+.MPBRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png")
+}
+
+.mortyRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png")
+}
+
+.rickRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png")
+}
+
+.evilRickRed {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRick.jpg");
+}
+
+.MPBRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPB.png")
+}
+
+.mortyRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/morty.png")
+}
+
+.rickRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rick.png")
+}
+
+.evilRickRed::hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRick.jpg");
+}
+
+.MPBRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/MPBSmall.png")
+}
+
+.mortyRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/mortySmall.png")
+}
+
+.rickRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/rickSmall.png")
+}
+
+.evilRickRedSmall {
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/evilRickSmall.jpg");
+}
+
+.hide {
+	display: none;
+}
