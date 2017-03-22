@@ -195,7 +195,7 @@ function battleMPB() {
 	};
 	characters.MPB.HP = characters.MPB.HP - userAP;
 	if (characters.MPB.HP < 1) {
-		userAP = userAP * 2;
+		userAP = userAP + userAP;
 		userHP = userHP - characters.MPB.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Mr. Poopybutthole!";
@@ -208,7 +208,7 @@ function battleMPB() {
 		return;
 	};
 	didX.innerHTML = "You did <strong>" + userAP + "</strong> damage.  <br>EnemyHP: " + characters.MPB.HP;
-	userAP = userAP * 2;
+	userAP = userAP + userAP;
 	userHP = userHP - characters.MPB.AP;
 	tookY.innerHTML = "<br>Enemy did <strong>" + characters.MPB.AP + "</strong> damage.  <br>Your HP is " + userHP;
 	if (userHP < 1) {
@@ -222,7 +222,7 @@ function battleMorty() {
 	};
 	characters.morty.HP = characters.morty.HP - userAP;
 	if (characters.morty.HP < 1) {
-		userAP = userAP * 2;
+		userAP = userAP + userAP;
 		userHP = userHP - characters.morty.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Morty!";
@@ -235,7 +235,7 @@ function battleMorty() {
 		return;
 	};
 	didX.innerHTML = "You did <strong>" + userAP + "</strong> damage.  <br>EnemyHP: " + characters.morty.HP;
-	userAP = userAP * 2;
+	userAP = userAP + userAP;
 	userHP = userHP - characters.morty.AP;
 	tookY.innerHTML = "<br>Enemy did <strong>" + characters.morty.AP + "</strong> damage.  <br>Your HP is " + userHP;
 	if (userHP < 1) {
@@ -249,7 +249,7 @@ function battleRick() {
 	};
 	characters.rick.HP = characters.rick.HP - userAP;
 	if (characters.rick.HP < 1) {
-		userAP = userAP * 2;
+		userAP = userAP + userAP;
 		userHP = userHP - characters.rick.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Rick!";
@@ -262,7 +262,7 @@ function battleRick() {
 		return;
 	};
 	didX.innerHTML = "You did <strong>" + userAP + "</strong> damage.  <br>EnemyHP: " + characters.rick.HP;
-	userAP = userAP * 2;
+	userAP = userAP + userAP;
 	userHP = userHP - characters.rick.AP;
 	tookY.innerHTML = "<br>Enemy did <strong>" + characters.rick.AP + "</strong> damage.  <br>Your HP is " + userHP;
 	if (userHP < 1) {
@@ -276,7 +276,7 @@ function battleEvilRick() {
 	};
 	characters.evilRick.HP = characters.evilRick.HP - userAP;
 	if (characters.evilRick.HP < 1) {
-		userAP = userAP * 2;
+		userAP = userAP + userAP;
 		userHP = userHP - characters.evilRick.AP;
 		enemyLeft--;
 		didX.innerHTML = "You have defeated Evil Rick!";
@@ -289,7 +289,7 @@ function battleEvilRick() {
 		return;
 	};
 	didX.innerHTML = "You did <strong>" + userAP + "</strong> damage.  <br>EnemyHP: " + characters.evilRick.HP;
-	userAP = userAP * 2;
+	userAP = userAP + userAP;
 	userHP = userHP - characters.evilRick.AP;
 	tookY.innerHTML = "<br>Enemy did <strong>" + characters.evilRick.AP + "</strong> damage.  <br>Your HP is " + userHP;
 	if (userHP < 1) {
